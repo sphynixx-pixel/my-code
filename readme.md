@@ -1,4 +1,4 @@
-# Neon Drift — Anime × JDM Creative Showcase
+# Neon Drift — JDM Creative Showcase
 
 Author: Jeremy (J3RRY)  
 **Project Type:** Final Independent Web Project  
@@ -14,7 +14,7 @@ It demonstrates:
 ✅ Semantic **HTML structure**  
 ✅ Responsive **CSS (Grid / Flexbox + Media Queries)**  
 ✅ **JavaScript** DOM Manipulation  
-✅ **Form Validation + Error Handling**  
+✅ **Form Validation **  
 ✅ **localStorage-based Data Persistence**  
 ✅ **Navigation between 3 linked pages**
 
@@ -115,5 +115,6 @@ Commit Messages
 23. style: adjust hero layout for small screens
 
 24. docs: finalize README and rubric mapping
+
 
 25. chore: prepare for submission (clean unused assets)
