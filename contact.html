@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+     <div class="logo">J3RRY</div>
+        <ul class="menu">
+            <li><a href="Home.html" class="active">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">info</a></li>
+        </ul>
+    </header>
+
+    <section class="container">
+      <h2>Add Your Car to the Showcase list</h2>
+        <form id="addForm" class="card form-card" novalidate>
+         <label for="title">Title *</label>
+         <input id="title" name="title" type="text" required minlength="2" />
+
+         <label for="model">Model *</label>
+         <input id="model" name="model" type="text" required minlength="2" />
+
+         <label for="category">Category *</label>
+            <select id="category" name="category" required>
+             <option value="">Select</option>
+             <option value="jdm">JDM</option>
+             <option value="anime">Anime-style</option>
+             <option value="custom">Custom</option>
+            </select>_
+
+         <label for="image">Image URL (optional)</label>
+         <input id="image" name="image" type="url" placeholder="https://..." />
+
+         <label for="notes">Notes</label>
+         <textarea id="notes" name="notes" rows="4" placeholder="Mods? Livery? Inspiration?"></textarea>
+
+            <div class="form-actions">
+              <button type="submit">Add</button>
+              <button type="reset" class="muted">Clear</button>
+            </div>
+
+            <div id="formMessage" role="status" aria-live="polite" class="muted"></div>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <div  class="container">
+          <small>© 2025 Neon Drift — Built by J3RRY</small>
+        </div>
+    </footer>
+
+  <script src="app.js"></script>
+
+
+</body>
+</html>
